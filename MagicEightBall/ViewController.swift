@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         // Change teh image
         eightBall.image = UIImage(named: "ball\(randomNumber)")
         
-        
     }
 
     
@@ -36,15 +35,17 @@ class ViewController: UIViewController {
     
     @IBAction func askTapped(_ sender: UIButton) {
         
-        
+        // Select the new ball image
+        selectBall()
         
     }
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         
-        
+        // Select the new ball image
+        selectBall()
         
     }
     
-}
+} // End class
 
