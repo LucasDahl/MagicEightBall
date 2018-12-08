@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     func selectBall() {
         
         // Get a radom number
-        let randomNumber = Int(arc4random_uniform(4) + 1)
+        let randomNumber = Int(arc4random_uniform(5) + 1)
         
         // Change teh image
         eightBall.image = UIImage(named: "ball\(randomNumber)")
-        
+        print(randomNumber)
     }
 
     
