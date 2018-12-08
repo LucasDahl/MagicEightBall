@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         // Get a radom number
         let randomNumber = Int(arc4random_uniform(5) + 1)
         
-        // Change teh image
+        // Change the image
         eightBall.image = UIImage(named: "ball\(randomNumber)")
-        print(randomNumber)
+        
     }
 
     
